@@ -14,6 +14,7 @@ while True:
 
     # Verifica se o usuário quer encerrar
     if mensagem.lower() == "sair":
+        salvar_memoria(historico)
         print("Sexta feira: Até mais!")
         break
     
